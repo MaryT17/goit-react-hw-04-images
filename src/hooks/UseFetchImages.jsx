@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const BASE_URL = 'https://pixabay.com/api/';
-const API_KEY = '41258265-293e4bea479457c1d7a454ddf';
+const API_KEY = '45255678-7b1e2ce8abc638d1eba867b77';
 
 const useFetchImages = (query, page) => {
   const [data, setData] = useState({ hits: [], totalHits: 0 });
